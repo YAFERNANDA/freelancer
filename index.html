@@ -11,17 +11,18 @@
 
     <nav>
       <div class="conteiner">
+        <a href=".first-page">START BOOTSTSTRAP</a>
       <!--  <div class="start">-->
         <div class="menu" >
           <button type="button" class="button" data-toggle="collapse" data-target="#var-introduced">
+          <!--  <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <a href="#">START BOOTSTSTRAP</a>
-         </div>
-          <!--  <i class="fa fa-bars" aria-hidden="true"></i>-->
-      <div id="var-introduced">
+            <span class="icon-bar"></span> -->
+          MENU
+           <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        </div>
+        <div id="var-introduced">
           <ul class="introduced">
             <li><a href="#"> portfolio </a></li>
             <li><a href="#"> about </a></li>
@@ -31,13 +32,17 @@
       </div>
     </nav>
 
-  <header>
+  <header class="first-page">
 
     <figure>
       <img src="assets/images/profile.png" alt="">
     </figure>
     <h1> START BOOTSTRAP </h1>
     <!-- before and after <hr> poner un star-->
+    <hr class="star">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <hr>
+
     <p>Web Developer - Graphic Artist - User Experience Designer </p>
 
   </header>
@@ -45,8 +50,9 @@
     <section class="portfolio">
       <h2>PORTAFOLIO</h2>
      <!-- star<hr> -->
-      <figure>
+      <figure id="picture">
         <img src="assets/images/portfolio/cabin.png" alt="cabin">
+        </a>
         <img src="assets/images/portfolio/cake.png" alt="cake">
         <img src="assets/images/portfolio/circus.png" alt="circus">
         <img src="assets/images/portfolio/game.png" alt="game">
@@ -61,17 +67,17 @@
 
      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
 
-     <button type="button" name="button"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</button>
+     <button  class="download" type="button" name="button"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</button>
 
    </section>
    <section class="contact-me">
      <h2>CONTACT ME</h2>
        <!--<hr>-->
      <form class="dates">
-       <input type="text">
-       <input type="text">
-       <input type="text">
-       <textarea name="name" rows="8" cols="80"></textarea>
+       <input type="text" placeholder="Name">
+       <input type="text" placeholder="Email Address">
+       <input type="text" placeholder="Phone Number">
+       <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
        <input type="submit" value="Send">
      </form>
    </section>
@@ -81,7 +87,7 @@
 
       <div class="row">
         <div class="colum-1">
-          <h3>LOCATION</h3>
+          <h3 id="first">LOCATION</h3>
           <p>3481 Melrose Place <br>
            Beverly Hills, CA 90210</p>
          </div>
